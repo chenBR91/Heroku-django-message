@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+import django_heroku
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -25,7 +27,8 @@ SECRET_KEY = 'a(y76sh8d(g0hke8f)^--m6h7y2y5uyp%chf75f%6j*$g%3lkf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['messageSystem.herokuapp.com']
 
 
 # Application definition
@@ -75,10 +78,23 @@ WSGI_APPLICATION = 'messageSystem.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dfkevg9cut2gnn',
+        'USER': 'ctcpdyjrlaefln',
+        'PASSWORD': '82e69c551e4d4e269de71dc89840732ab21496193eb193ccd2d98e9bac96c0cd',
+        'HOST': 'ec2-35-168-80-116.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
@@ -119,4 +135,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+# STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+django_heroku.settings(locals())
