@@ -1,0 +1,116 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "sender": "Chen",
+      "receiver": "Aviv",
+      "message": "test",
+      "subject": "test",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 2,
+      "sender": "Chen",
+      "receiver": "Revital",
+      "message": "test",
+      "subject": "bkbk",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 3,
+      "sender": "Tom",
+      "receiver": "Chen",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 4,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 5,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 6,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 7,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 8,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 9,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-19"
+    },
+    {
+      "id": 10,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-20"
+    },
+    {
+      "id": 11,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-20"
+    },
+    {
+      "id": 12,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-20"
+    },
+    {
+      "id": 13,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-20"
+    },
+    {
+      "id": 14,
+      "sender": "Ami",
+      "receiver": "Afek",
+      "message": "temp",
+      "subject": "temp",
+      "date": "2021-11-20"
+    }
+  ]
+}
