@@ -28,7 +28,7 @@ SECRET_KEY = 'a(y76sh8d(g0hke8f)^--m6h7y2y5uyp%chf75f%6j*$g%3lkf'
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['127.0.0.1', 'message-django-app.herokuapp.com']
+ALLOWED_HOSTS = ['message-django-app.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
